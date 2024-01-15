@@ -72,7 +72,7 @@ $(document).keypress(function(event){
     if(video!="" && (code==13|| code||code==32)){
         if(video.paused){
             video.play();
-            $(".switch").addClass("fa-pause").removeClass("fa-play");
+            $(".switch")   .addClass("fa-pause").removeClass("fa-play");
         }else{
             video.pause();
             $(".switch").addClass("fa-play").removeClass("fa-pause")
